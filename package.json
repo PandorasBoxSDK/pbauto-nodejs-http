@@ -1,6 +1,6 @@
 {
   "name": "pbauto-nodejs-http",
-  "version": "3.1.12086",
+  "version": "3.3.12086",
   "description": "nodejs module to control coolux Pandoras Box",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coolux/pbauto-nodejs-http.git"
+    "url": "git+https://github.com/PandorasBoxSDK/pbauto-nodejs-http.git"
   },
   "dependencies": {
     "http": "latest"
@@ -20,7 +20,7 @@
   "author": "Dennis Kuypers",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coolux/pbauto-nodejs-http/issues"
+    "url": "https://github.com/PandorasBoxSDK/pbauto-nodejs-http/issues"
   },
-  "homepage": "https://github.com/coolux/pbauto-nodejs-http#readme"
+  "homepage": "https://github.com/PandorasBoxSDK/pbauto-nodejs-http#readme"
 }
