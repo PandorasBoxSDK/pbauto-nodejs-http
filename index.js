@@ -366,10 +366,14 @@ PBAuto.prototype.send = function(t, e, r){
                     	}
 	                    e(t);
                 	}
-                );
+				);
         	}
     	}
     	);
+		req.on('error', (err) => {
+			console.error(`problem with request: ${err.message}`);
+			e({ok: false, message:err.message});
+		});
     req.write(Base64.encode(t.getRawBytes()));
     req.end();
 }
